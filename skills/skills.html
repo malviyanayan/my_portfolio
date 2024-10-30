@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", system-ui, serif;
+        }
+
+        body {
+            min-height: 100vh;
+            height: 100vh;
+            background-color: #1a202c;
+            color: #fff;
+            margin-top: 5px;
+        }
+
+        #skills{
+            width: 90%;
+            height: max-content;
+            margin: 0 auto;
+        }
+
+        #skills h2{
+            text-align: center;
+            /* margin: 10px; */
+            font-size: 32px;
+            margin-top: 20px;
+        }
+
+        #skills-inner{
+            width: 100%;
+            height: max-content;
+            padding: 20px;
+        }
+
+        .skill{
+            margin-top: 10px;
+            margin-bottom: 20px;
+            margin-left: 25px;
+            display: inline-block;
+            font-size: 1.2rem;
+            font-weight: 500;
+            background-color: #ff4321;
+            color: #000000;
+            /* padding: 5px 10px; */
+            border-radius: 8px 16px;
+            cursor: context-menu;
+        }
+        .skill div{
+            border-radius: 8px 16px;
+            padding: 5px 10px;
+            background-color: #fff;
+            position: relative;
+            bottom: 0.1rem;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        
+        .skill div:hover{
+            bottom: 0.3rem;
+            background-color: #ff4321;
+        }
+
+        .skill div img{
+            width: 29px;
+            margin-right: 3px;
+        }
+        
+        .skill:hover{
+            -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="skills">
+        <h2>Skills</h2>
+        <div class="skills-inner" id="frontend">
+            <h3>Frontend Skills : </h3>
+            <div class="skill"><div><img src="icons8-html-48.png">HTML</div></div>
+            <div class="skill"><div><img src="css.png">CSS</div></div>
+            <div class="skill"><div><img src="js.png">JS</div></div>
+            <div class="skill"><div><img src="bootstrap.png">BootStrap</div></div>
+            <div class="skill"><div>Ajax</div></div>
+        </div>
+        
+        <div class="skills-inner" id="backend">
+            <h3>Backend Skills : </h3>
+            <div class="skill"><div><img src="skills/servlets.png">Servlet</div></div>
+            <div class="skill"><div><img src="skills/jsppng.png">JSP</div></div>
+            <div class="skill"><div>EL</div></div>
+            <div class="skill"><div>JSTL</div></div>
+            <div class="skill"><div>Custom Tags</div></div>
+            <div class="skill"><div><img src="skills/mvcjpg.jpg">MVC Archietecture</div></div>
+            <div class="skill"><div><img src="skills/mysql.png">My SQL</div></div>
+            
+        </div>
+        
+        <div class="skills-inner" id="languages">
+            <h3>Programming Languages : </h3>
+            <div class="skill"><div><img src="java.png">Java</div></div>
+            <div class="skill"><div><img src="js.png">Javascript</div></div>
+            <div class="skill"><div><img src="c.png">C</div></div>
+            <div class="skill"><div><img src="cpp.png">C++</div></div>
+
+        </div>
+    </div>
+</body>
+</html>
