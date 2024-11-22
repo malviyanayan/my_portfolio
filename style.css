@@ -517,7 +517,6 @@ body {
 
 /* Education section */
 #education{
-  min-height: 200px;
   height: max-content;
   width: 100%;
   border: 1px solid #11141b;
@@ -615,7 +614,9 @@ body {
   }
 
   #edu-rgt-lft{
-    display: none;
+    position: relative;
+    height: 450px;
+    background-color: #898a8a !important;
   }
 
   #edu-left,#edu-right{
