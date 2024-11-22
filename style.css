@@ -135,6 +135,10 @@ body {
   #contact-me {
     display: none;
   }
+
+  #main-container{
+    padding: 0;
+  }
 }
 
 /* Main Conatainer Styling Start from here  */
@@ -265,11 +269,11 @@ body {
 
 #about {
   border: 1px solid #11141b;
+  background-color: #171c26;
   margin: 70px auto;
   width: 100%;
   height: max-content;
   padding: 20px;
-  background-color: #171c26;
   border-radius: 1rem;
   padding-bottom: 40px;
 }
@@ -504,4 +508,121 @@ body {
   font-size: 0.9rem;
   color: #cbcccc;
   margin-top: 0.5rem;
+}
+
+
+
+
+
+
+/* Education section */
+#education{
+  min-height: 200px;
+  height: max-content;
+  width: 100%;
+  border: 1px solid #11141b;
+  background-color: #171c26;
+  display: flex;
+  border-radius: 10px;
+  color: #e4e8e1;
+  padding: 20px;
+}
+
+#edu-left{
+  width: 30%;
+  /* background-color: yellow; */
+}
+
+#edu-left>h2{
+  font-size: 1.9rem;
+  margin-bottom: 0;
+}
+
+#edu-left>span{
+  margin-left: 6px;
+  line-height: 0;
+  color: #898a8a;
+}
+
+#ed_lft-up{
+  width: 85px;
+  height: 10px;
+  background-color: #de5239;
+  border-radius: 22px;
+  margin: 8px auto 12px 0;
+}
+
+#edu-right{
+  width: 70%;
+  display: flex;
+  margin-top: 10px;
+  /* background-color: yellowgreen; */
+}
+
+#edu-rgt-lft{
+  position: relative;
+  /* margin-top: 10px; */
+  width: 8px;
+  height: 100%;
+  background-color: #898a8a;
+  border-radius: 10px;
+}
+
+.edu-bx{
+  margin-top: 10px;
+  width: 100%;
+  height: max-content;
+  margin-left: 22px;
+  margin-bottom: 60px;
+  /* background-color: yellow; */
+}
+
+.edu-bx > span{
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+.edu-bx>div{
+  margin-top: 10px;
+}
+
+.edu-bx>div>span{
+  display: block;
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+
+
+.edu-dot{
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #de5239;
+  left: -4px;
+  border-radius: 50%;
+}
+
+.edu-bx >h2{
+  line-height: 18px;
+}
+
+@media (min-width: 0) and (max-width: 675px){
+  #education{
+    flex-direction: column;
+  }
+
+  #edu-rgt-lft{
+    display: none;
+  }
+
+  #edu-left,#edu-right{
+    width: 100%;
+  }
+
+  #edu-left{
+    margin: 8px auto 25px 25px;
+  }
 }
