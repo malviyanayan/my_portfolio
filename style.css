@@ -418,7 +418,6 @@ body {
 
 #projects-box {
   width: 100%;
-  padding: 40px;
   min-height: 200px;
   margin: 60px auto;
   border-radius: 10px;
@@ -614,6 +613,7 @@ body {
   }
 
   #edu-rgt-lft{
+    display: none;
     position: relative;
     height: 450px;
     background-color: #898a8a !important;
