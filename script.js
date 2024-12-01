@@ -22,7 +22,7 @@ menu.addEventListener("click",(e)=>{
 
 let txt = document.getElementById('txt');
 txt.innerHTML = "";
-const str = "Java devloper,Frontend Devloper,Backend Devloper,Student";
+const str = "Java Developer ,Frontend Developer ,Backend Developer ,Student ";
 
 function typeString() {
     let i = 0;
